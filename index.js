@@ -1,16 +1,16 @@
 function ageGroupFinder(age) {
     if (age < 5) {
-        return "Baby";
+        return "Baby 👶🏼";
     } else if (age < 13) {
-        return "Child";
+        return "Child 👦🏼";
     } else if (age < 18) {
-        return "Teenager";
+        return "Teenager 👨🏼‍🎓";
     } else if (age < 26) {
-        return "Young Adult";
+        return "Young Adult 👨🏼‍💻";
     } else if (age < 61) {
-        return "Adult";
+        return "Adult 👨🏼‍🏫";
     } else {
-        return "Old";
+        return "Old 👴🏼";
     }
 }
 
